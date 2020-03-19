@@ -1,0 +1,15 @@
+{
+   "accounts": [{
+         "title": "something text 1",
+         "img": "./image/svg/user.svg"
+      },
+      {
+         "title": "something text 2",
+         "img": "./image/svg/user.svg"
+      },
+      {
+         "title": "something text 3",
+         "img": "./image/svg/user.svg"
+      }
+   ]
+}

@@ -1,0 +1,67 @@
+*
+   margin: 0
+   padding: 0
+   box-sizing: border-box
+
+a
+   display: inline-block
+   color: #ffffff
+   padding: 5px 15px
+   border-radius: 3px
+   text-align: center
+   text-decoration: none
+   font-size: 1.3em
+   background-color: grey
+   text-transform: uppercase
+
+li
+   list-style: none
+
+body
+   display: flex
+   height: 100vh
+   justify-content: center
+   align-items: center
+
+.screen-one
+   // display: none // ??
+   display: flex
+   min-height: 300px   
+   .users-list
+      min-width: 170px
+      &__item
+         padding: 10px 5px
+         display: flex
+      &__image
+         width: 50px
+      &__text
+         margin-left: 15px
+         align-self: center
+   &__button
+      width: 200px
+      display: flex
+      justify-content: center
+      a
+         align-self: center
+
+.active
+   border: 1px solid red
+
+.screen-two
+   display: none
+   min-height: 200px
+   .container-input
+      width: 300px
+      input
+         width: 100%
+         padding: 5px
+         
+      &__buttons
+         margin-top: 20px
+         display: flex   
+         justify-content: space-between      
+
+.help
+   position: fixed
+   top: 10%
+   opacity: .7
